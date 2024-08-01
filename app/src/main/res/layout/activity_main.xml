@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="395dp"
+        android:layout_height="206dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"></ImageView>
+
+    <TextView
+        android:id="@+id/text_display"
+        android:layout_width="390dp"
+        android:layout_height="321dp"
+        android:layout_below="@+id/image_view"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:maxLines="5"
+        android:textSize="26dp"></TextView>
+
+    <Button
+        android:id="@+id/capture_image"
+        android:layout_width="100dp"
+        android:layout_height="27dp"
+        android:layout_above="@id/detect_image"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorAccent"
+        android:text="Foto"></Button>
+
+    <Button
+        android:id="@+id/detect_image"
+        android:layout_width="100dp"
+        android:layout_height="31dp"
+        android:layout_above="@id/speak"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="17dp"
+        android:background="@color/colorPrimary"
+        android:text="Texto"></Button>
+
+    <Button
+        android:id="@+id/speak"
+        android:layout_width="98dp"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="23dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Voz"></Button>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="120dp"
+        android:layout_height="107dp"
+        android:src="@drawable/uce"
+        android:translationX="65pt"
+        android:translationY="290pt" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Byron Cabezas"
+        android:translationX="135pt"
+        android:translationY="300pt" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dispositivos"
+        android:translationX="135pt"
+        android:translationY="320pt" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moviles"
+        android:translationX="135pt"
+        android:translationY="340pt" />
+
+</RelativeLayout>
